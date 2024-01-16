@@ -4,6 +4,15 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
+.photo{
+    margin: 140px 135px;
+}
+.photo-content{
+    max-width: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 header{
     padding: 50px 240;
 }
@@ -30,13 +39,118 @@ nav li{
     font-weight: 500;
     font-size: 1rem;
 }
-
 .image{
     width: 1170px;
     height: 500px;
-    background-image: url(Images/Group 13 (1) (1).png);
+    background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    border-radius: 16px;
 }
+
 .banner-content{
     text-align: center;
     margin: 0 auto;
+}
+.btn-primary{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.features{
+    margin-top: 130px;
+    display: flex;
+    gap: 50px;
+}
+.features-content .card{
+    padding: 30px;
+    font-size: 16px;
+    background: #FFF;
+    font-weight: 400;
+}
+.btn-color{
+    width: 180px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center; 
+    font-size: 15px;
+    font-weight: 600;
+}
+.features-img{
+    width: 540px;
+    height: 550px;
+}
+.row{
+    display: flex;
+    width: 573px;
+    height: 300px;
+    gap: 5px;
+
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.card-container .card{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    text-align: center;
+}
+.card-container .card-stats{
+    width: 486px;
+}
+.background{
+    width: 1170px;
+    height: 500px;
+    background-image: url("../Images/Group\ 39.png");
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+.background-2{
+    width: 1170px;
+    height: 500px;
+    background-image: url("../Images/Group\ 40.png");
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+.image .box{
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    
+}
+.main{
+
+}
+.main .Contact input,textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+
+}
+
+.footer{
+    display: flex;
+    background: #1313180D;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+    }
+    
 }
